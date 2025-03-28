@@ -1,3 +1,5 @@
+package Product;
+
 public class ProductOrderMain {
     public static void main(String[] args) {
 
@@ -10,8 +12,8 @@ public class ProductOrderMain {
         totalAmount(orders);
     }
 
-    //ProductOrder 인스턴스를 생성하고, 값을 할당하고, 인스턴스를 반환하는 메서드.
-    //ProductOrder 인스턴스를 반환하므로 반환 타입은 ProductOrder이다.
+    //Product.ProductOrder 인스턴스를 생성하고, 값을 할당하고, 인스턴스를 반환하는 메서드.
+    //Product.ProductOrder 인스턴스를 반환하므로 반환 타입은 ProductOrder이다.
     static ProductOrder createOrder(String productName, int price, int quantity) {
         ProductOrder order = new ProductOrder();
         order.productName = productName;
