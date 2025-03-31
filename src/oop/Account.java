@@ -1,4 +1,4 @@
-package task3;
+package oop;
 
 public class Account {
     int balance;

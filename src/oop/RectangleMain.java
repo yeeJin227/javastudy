@@ -1,4 +1,4 @@
-package task3;
+package oop;
 
 public class RectangleMain {
     public static void main(String[] args) {
